@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagem
+{
+    height: 60vh;
+    width: 60vh;
+    margin: 5vh;
+}
+
+.imagem2
+{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 10px;
+}
+
+body
+{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.apresentacao
+{
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo
+{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.h1__strong
+{
+    color: #22D4FD;
+}
+
+.apresentacao__conteudo__titulo
+{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__titulo2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto
+{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.apresentacao__links
+{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__link
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 15.5px;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: solid 2px #22D4FD;
+    gap: 32px;
+}
+
+.apresentacao__links__link:hover
+{
+    background-color: #22D4FD;
+    color: black;
+}
+
+.apresentacao__links__link2
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.header__links
+{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    width: 67%;
+}
+
+.header__links__link
+{
+    color: #22D4FD;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+footer
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #22D4FD;
+    padding: 24px;
+    color: black;
+}
+
